@@ -9,12 +9,13 @@
       "build_output_subfolder": "716test",
       "locale": "cs-cz",
       "version": 0,
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "is_dynamic_rendering": false
     }
   ],
   "notification_subscribers": [],
@@ -27,5 +28,6 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }
